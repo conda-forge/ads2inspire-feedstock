@@ -5,7 +5,7 @@ Home: https://github.com/duetosymmetry/ads2inspire
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Replace ADS citations with the appropriate INSPIRE ones in latex and bibtex
 
