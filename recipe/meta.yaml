@@ -1,5 +1,5 @@
 {% set name = "ads2inspire" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 02b1c0737b57ae0298c54a6788126179decb050992922aa02dd8d0f00cec0eda
+  sha256: 9329bdad2f408b16af9dec17d407d8f759fe512df22a86fd3ee669cc960d7631
 
 build:
   noarch: python
   number: 0
   entry_points:
     - ads2inspire = ads2inspire.cli:ads2inspire
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -36,7 +36,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Replace ADS citations with the appropriate INSPIRE ones in latex and bibtex'
+  summary: Replace ADS citations with the appropriate INSPIRE ones in latex and bibtex
 
   description: |
     ads2inspire is a command-line utility (and package) for replacing
