@@ -5,9 +5,13 @@ Home: https://github.com/duetosymmetry/ads2inspire
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ads2inspire-feedstock/blob/master/LICENSE.txt)
 
 Summary: Replace ADS citations with the appropriate INSPIRE ones in latex and bibtex
+
+Development: https://github.com/duetosymmetry/ads2inspire
+
+Documentation: https://github.com/duetosymmetry/ads2inspire
 
 ads2inspire is a command-line utility (and package) for replacing
 ADS citations with the appropriate INSPIRE ones in latex and bibtex.
